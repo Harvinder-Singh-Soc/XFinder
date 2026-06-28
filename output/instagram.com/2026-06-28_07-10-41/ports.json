@@ -1,0 +1,326 @@
+{
+  "scanner": "naabu",
+  "success": true,
+  "duration_seconds": 19.607237100601196,
+  "error": null,
+  "data": {
+    "open_ports": [
+      {
+        "host": "about.intern.instagram.com",
+        "ip": "57.144.48.146",
+        "port": 443,
+        "protocol": "tcp"
+      },
+      {
+        "host": "about.intern.instagram.com",
+        "ip": "57.144.48.146",
+        "port": 80,
+        "protocol": "tcp"
+      },
+      {
+        "host": "bigzipfiles.instagram.com",
+        "ip": "57.144.48.128",
+        "port": 443,
+        "protocol": "tcp"
+      },
+      {
+        "host": "bigzipfiles.instagram.com",
+        "ip": "57.144.48.128",
+        "port": 80,
+        "protocol": "tcp"
+      },
+      {
+        "host": "about.instagram.com",
+        "ip": "57.144.42.141",
+        "port": 443,
+        "protocol": "tcp"
+      },
+      {
+        "host": "about.instagram.com",
+        "ip": "57.144.42.141",
+        "port": 80,
+        "protocol": "tcp"
+      },
+      {
+        "host": "admin.instagram.com",
+        "ip": "157.240.9.26",
+        "port": 80,
+        "protocol": "tcp"
+      },
+      {
+        "host": "admin.instagram.com",
+        "ip": "157.240.9.26",
+        "port": 443,
+        "protocol": "tcp"
+      },
+      {
+        "host": "bn-in.hyperlase.beta.latest.instagram.com",
+        "ip": "57.144.48.136",
+        "port": 443,
+        "protocol": "tcp"
+      },
+      {
+        "host": "bn-in.hyperlase.beta.latest.instagram.com",
+        "ip": "57.144.48.136",
+        "port": 80,
+        "protocol": "tcp"
+      },
+      {
+        "host": "auth.instagram.com",
+        "ip": "57.144.48.192",
+        "port": 80,
+        "protocol": "tcp"
+      },
+      {
+        "host": "auth.instagram.com",
+        "ip": "57.144.48.192",
+        "port": 443,
+        "protocol": "tcp"
+      },
+      {
+        "host": "badges.instagram.com",
+        "ip": "57.144.48.192",
+        "port": 80,
+        "protocol": "tcp"
+      },
+      {
+        "host": "badges.instagram.com",
+        "ip": "57.144.48.192",
+        "port": 443,
+        "protocol": "tcp"
+      },
+      {
+        "host": "api.instagram.com",
+        "ip": "57.144.48.192",
+        "port": 80,
+        "protocol": "tcp"
+      },
+      {
+        "host": "api.instagram.com",
+        "ip": "57.144.48.192",
+        "port": 443,
+        "protocol": "tcp"
+      },
+      {
+        "host": "airwave.instagram.com",
+        "ip": "57.144.48.192",
+        "port": 80,
+        "protocol": "tcp"
+      },
+      {
+        "host": "airwave.instagram.com",
+        "ip": "57.144.48.192",
+        "port": 443,
+        "protocol": "tcp"
+      },
+      {
+        "host": "applink.instagram.com",
+        "ip": "57.144.48.192",
+        "port": 80,
+        "protocol": "tcp"
+      },
+      {
+        "host": "applink.instagram.com",
+        "ip": "57.144.48.192",
+        "port": 443,
+        "protocol": "tcp"
+      },
+      {
+        "host": "b.i.instagram.com",
+        "ip": "57.144.48.34",
+        "port": 80,
+        "protocol": "tcp"
+      },
+      {
+        "host": "b.i.instagram.com",
+        "ip": "57.144.48.34",
+        "port": 443,
+        "protocol": "tcp"
+      },
+      {
+        "host": "b-i-fallback.instagram.com",
+        "ip": "57.144.142.34",
+        "port": 80,
+        "protocol": "tcp"
+      },
+      {
+        "host": "b-i-fallback.instagram.com",
+        "ip": "57.144.142.34",
+        "port": 443,
+        "protocol": "tcp"
+      },
+      {
+        "host": "at-od.instagram.com",
+        "ip": "157.240.9.14",
+        "port": 80,
+        "protocol": "tcp"
+      },
+      {
+        "host": "at-od.instagram.com",
+        "ip": "157.240.9.14",
+        "port": 443,
+        "protocol": "tcp"
+      },
+      {
+        "host": "brand.instagram.com",
+        "ip": "157.240.9.18",
+        "port": 443,
+        "protocol": "tcp"
+      },
+      {
+        "host": "brand.instagram.com",
+        "ip": "157.240.9.18",
+        "port": 80,
+        "protocol": "tcp"
+      },
+      {
+        "host": "accountscenter.instagram.com",
+        "ip": "57.144.150.192",
+        "port": 80,
+        "protocol": "tcp"
+      },
+      {
+        "host": "accountscenter.instagram.com",
+        "ip": "57.144.150.192",
+        "port": 443,
+        "protocol": "tcp"
+      },
+      {
+        "host": "business.intern.instagram.com",
+        "ip": "157.240.9.7",
+        "port": 80,
+        "protocol": "tcp"
+      },
+      {
+        "host": "business.intern.instagram.com",
+        "ip": "157.240.9.7",
+        "port": 443,
+        "protocol": "tcp"
+      },
+      {
+        "host": "checkout.instagram.com",
+        "ip": "157.240.9.52",
+        "port": 443,
+        "protocol": "tcp"
+      },
+      {
+        "host": "checkout.instagram.com",
+        "ip": "157.240.9.52",
+        "port": 80,
+        "protocol": "tcp"
+      },
+      {
+        "host": "blog.instagram.com",
+        "ip": "57.144.124.141",
+        "port": 443,
+        "protocol": "tcp"
+      },
+      {
+        "host": "blog.instagram.com",
+        "ip": "57.144.124.141",
+        "port": 80,
+        "protocol": "tcp"
+      },
+      {
+        "host": "business.instagram.com",
+        "ip": "57.144.242.192",
+        "port": 80,
+        "protocol": "tcp"
+      },
+      {
+        "host": "business.instagram.com",
+        "ip": "57.144.242.192",
+        "port": 443,
+        "protocol": "tcp"
+      },
+      {
+        "host": "aistudio.instagram.com",
+        "ip": "57.144.150.34",
+        "port": 443,
+        "protocol": "tcp"
+      },
+      {
+        "host": "aistudio.instagram.com",
+        "ip": "57.144.150.34",
+        "port": 80,
+        "protocol": "tcp"
+      }
+    ],
+    "ip_to_ports": {
+      "57.144.48.146": [
+        443,
+        80
+      ],
+      "57.144.48.128": [
+        443,
+        80
+      ],
+      "57.144.42.141": [
+        443,
+        80
+      ],
+      "157.240.9.26": [
+        80,
+        443
+      ],
+      "57.144.48.136": [
+        443,
+        80
+      ],
+      "57.144.48.192": [
+        80,
+        443,
+        80,
+        443,
+        80,
+        443,
+        80,
+        443,
+        80,
+        443
+      ],
+      "57.144.48.34": [
+        80,
+        443
+      ],
+      "57.144.142.34": [
+        80,
+        443
+      ],
+      "157.240.9.14": [
+        80,
+        443
+      ],
+      "157.240.9.18": [
+        443,
+        80
+      ],
+      "57.144.150.192": [
+        80,
+        443
+      ],
+      "157.240.9.7": [
+        80,
+        443
+      ],
+      "157.240.9.52": [
+        443,
+        80
+      ],
+      "57.144.124.141": [
+        443,
+        80
+      ],
+      "57.144.242.192": [
+        80,
+        443
+      ],
+      "57.144.150.34": [
+        443,
+        80
+      ]
+    },
+    "host_count": 20,
+    "port_count": 40
+  }
+}

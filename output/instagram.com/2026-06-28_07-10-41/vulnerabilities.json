@@ -1,0 +1,11 @@
+{
+  "scanner": "nuclei",
+  "success": true,
+  "duration_seconds": 180.6022434234619,
+  "error": null,
+  "data": {
+    "vulnerabilities": [],
+    "count": 0,
+    "by_severity": {}
+  }
+}
