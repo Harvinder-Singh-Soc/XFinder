@@ -1,0 +1,26 @@
+{
+  "scan_id": 42,
+  "target": "example.com",
+  "exported_at": "2026-07-01T10:01:25Z",
+  "data": [
+    {"ip": "93.184.216.34", "host": "www.example.com",     "port": 443,  "protocol": "tcp"},
+    {"ip": "93.184.216.34", "host": "www.example.com",     "port": 80,   "protocol": "tcp"},
+    {"ip": "13.224.150.88", "host": "api.example.com",     "port": 443,  "protocol": "tcp"},
+    {"ip": "104.21.45.123", "host": "dev.example.com",     "port": 443,  "protocol": "tcp"},
+    {"ip": "104.21.45.123", "host": "dev.example.com",     "port": 80,   "protocol": "tcp"},
+    {"ip": "185.199.108.153","host": "staging.example.com","port": 443,  "protocol": "tcp"},
+    {"ip": "185.199.108.153","host": "staging.example.com","port": 80,   "protocol": "tcp"},
+    {"ip": "75.2.70.75",    "host": "blog.example.com",    "port": 443,  "protocol": "tcp"},
+    {"ip": "76.76.21.21",   "host": "docs.example.com",    "port": 443,  "protocol": "tcp"},
+    {"ip": "93.184.216.35", "host": "mail.example.com",    "port": 25,   "protocol": "tcp"},
+    {"ip": "93.184.216.35", "host": "mail.example.com",    "port": 465,  "protocol": "tcp"},
+    {"ip": "93.184.216.35", "host": "mail.example.com",    "port": 587,  "protocol": "tcp"},
+    {"ip": "93.184.216.35", "host": "mail.example.com",    "port": 993,  "protocol": "tcp"},
+    {"ip": "93.184.216.35", "host": "mail.example.com",    "port": 80,   "protocol": "tcp"},
+    {"ip": "93.184.216.36", "host": "grafana.example.com", "port": 443,  "protocol": "tcp"},
+    {"ip": "93.184.216.36", "host": "grafana.example.com", "port": 22,   "protocol": "tcp"},
+    {"ip": "93.184.216.37", "host": "jenkins.example.com", "port": 443,  "protocol": "tcp"},
+    {"ip": "93.184.216.37", "host": "jenkins.example.com", "port": 8080, "protocol": "tcp"},
+    {"ip": "93.184.216.37", "host": "jenkins.example.com", "port": 22,   "protocol": "tcp"}
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "scan_id": 42,
+  "target": "example.com",
+  "exported_at": "2026-07-01T10:02:30Z",
+  "data": [
+    {"ip": "93.184.216.34", "port": 443,  "protocol": "tcp", "state": "open", "name": "https",        "product": "nginx",          "version": "1.25.3",       "os": "Linux 5.x", "extra": null},
+    {"ip": "93.184.216.34", "port": 80,   "protocol": "tcp", "state": "open", "name": "http",         "product": "nginx",          "version": "1.25.3",       "os": "Linux 5.x", "extra": null},
+    {"ip": "13.224.150.88", "port": 443,  "protocol": "tcp", "state": "open", "name": "https",        "product": "CloudFront",     "version": null,           "os": null,        "extra": null},
+    {"ip": "104.21.45.123", "port": 443,  "protocol": "tcp", "state": "open", "name": "https",        "product": "cloudflare",     "version": null,           "os": null,        "extra": null},
+    {"ip": "104.21.45.123", "port": 80,   "protocol": "tcp", "state": "open", "name": "http",         "product": "cloudflare",     "version": null,           "os": null,        "extra": null},
+    {"ip": "185.199.108.153","port": 443, "protocol": "tcp", "state": "open", "name": "https",        "product": "GitHub.com",     "version": null,           "os": null,        "extra": null},
+    {"ip": "75.2.70.75",    "port": 443,  "protocol": "tcp", "state": "open", "name": "https",        "product": "Netlify",        "version": null,           "os": null,        "extra": null},
+    {"ip": "76.76.21.21",   "port": 443,  "protocol": "tcp", "state": "open", "name": "https",        "product": "Vercel",         "version": null,           "os": null,        "extra": null},
+    {"ip": "93.184.216.35", "port": 25,   "protocol": "tcp", "state": "open", "name": "smtp",         "product": "Postfix smtpd",  "version": "3.7.11",       "os": "Linux 5.x", "extra": "PIPELINING SIZE 10240000"},
+    {"ip": "93.184.216.35", "port": 465,  "protocol": "tcp", "state": "open", "name": "smtps",        "product": "Postfix smtpd",  "version": "3.7.11",       "os": "Linux 5.x", "extra": "SSL/TLS"},
+    {"ip": "93.184.216.35", "port": 587,  "protocol": "tcp", "state": "open", "name": "submission",   "product": "Postfix smtpd",  "version": "3.7.11",       "os": "Linux 5.x", "extra": "STARTTLS"},
+    {"ip": "93.184.216.35", "port": 993,  "protocol": "tcp", "state": "open", "name": "imaps",        "product": "Dovecot imapd",  "version": "2.3.21",       "os": "Linux 5.x", "extra": "SSL/TLS"},
+    {"ip": "93.184.216.35", "port": 80,   "protocol": "tcp", "state": "open", "name": "http",         "product": "Apache httpd",   "version": "2.4.58",       "os": "Debian",    "extra": "(Debian)"},
+    {"ip": "93.184.216.36", "port": 443,  "protocol": "tcp", "state": "open", "name": "https",        "product": "nginx",          "version": "1.25.3",       "os": "Ubuntu",    "extra": null},
+    {"ip": "93.184.216.36", "port": 22,   "protocol": "tcp", "state": "open", "name": "ssh",          "product": "OpenSSH",        "version": "9.3p1 Ubuntu 1ubuntu4", "os": "Ubuntu 23.10", "extra": "Ubuntu 4; protocol 2.0"},
+    {"ip": "93.184.216.37", "port": 443,  "protocol": "tcp", "state": "open", "name": "https",        "product": "Jetty",          "version": "10.0.18",      "os": null,        "extra": null},
+    {"ip": "93.184.216.37", "port": 8080, "protocol": "tcp", "state": "open", "name": "http-proxy",   "product": "Jetty",          "version": "10.0.18",      "os": null,        "extra": "Jenkins"},
+    {"ip": "93.184.216.37", "port": 22,   "protocol": "tcp", "state": "open", "name": "ssh",          "product": "OpenSSH",        "version": "8.9p1 Ubuntu 3ubuntu0.4", "os": "Ubuntu 22.04", "extra": "Ubuntu 4; protocol 2.0"}
+  ]
+}

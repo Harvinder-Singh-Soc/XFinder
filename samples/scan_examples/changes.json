@@ -1,0 +1,87 @@
+{
+  "scan_id": 42,
+  "previous_scan_id": 41,
+  "generated_at": "2026-07-01T10:04:32Z",
+  "new_subdomains": [
+    "ldap.example.com",
+    "staging2.example.com",
+    "ws.example.com"
+  ],
+  "removed_subdomains": [
+    "old.example.com"
+  ],
+  "new_ports": [
+    [12, 22, "tcp"],
+    [12, 8081, "tcp"],
+    [13, 5432, "tcp"]
+  ],
+  "closed_ports": [
+    [9, 21, "tcp"]
+  ],
+  "new_technologies": [
+    [3, "Framework", "Next.js"],
+    [5, "Framework", "Gatsby"],
+    [8, "Application", "Jenkins"]
+  ],
+  "removed_technologies": [
+    [4, "Framework", "Vue.js"]
+  ],
+  "dns_changes": [
+    {
+      "subdomain_id": 5,
+      "added": [
+        {"type": "A", "value": "13.224.150.89"}
+      ],
+      "removed": [
+        {"type": "A", "value": "13.224.150.87"}
+      ]
+    },
+    {
+      "subdomain_id": 6,
+      "added": [
+        {"type": "AAAA", "value": "2606:2800:220:1:248:1893:25c8:1946"}
+      ],
+      "removed": []
+    }
+  ],
+  "cloud_changes": [
+    {
+      "subdomain_id": 6,
+      "previous": {"provider": "AWS", "cdn": null, "waf": null},
+      "current":  {"provider": "Cloudflare", "cdn": "Cloudflare", "waf": "Cloudflare"}
+    }
+  ],
+  "new_vulnerabilities": [
+    ["CVE-2024-23897", "https://jenkins.example.com/"],
+    ["CVE-2023-34960", "https://grafana.example.com/public/plugins/alertlist/../../../../../../etc/passwd"],
+    ["exposed-admin-panel", "https://jenkins.example.com/manage"],
+    ["self-signed-ssl", "https://jenkins.example.com/"]
+  ],
+  "resolved_vulnerabilities": [
+    ["CVE-2022-22965", "https://api.example.com/"]
+  ],
+  "new_api_endpoints": [
+    "https://api.example.com/v1/auth/login",
+    "https://api.example.com/v1/auth/register",
+    "https://api.example.com/v1/orders",
+    "https://jenkins.example.com/api/json",
+    "https://jenkins.example.com/api/json?tree=jobs[name,color]"
+  ],
+  "removed_api_endpoints": [
+    "https://old.example.com/api/legacy"
+  ],
+  "summary": {
+    "new_subdomains": 3,
+    "removed_subdomains": 1,
+    "new_ports": 3,
+    "closed_ports": 1,
+    "new_technologies": 3,
+    "removed_technologies": 1,
+    "dns_changed_subdomains": 2,
+    "cloud_changed_subdomains": 1,
+    "new_vulnerabilities": 4,
+    "resolved_vulnerabilities": 1,
+    "new_api_endpoints": 5,
+    "removed_api_endpoints": 1
+  }
+}
