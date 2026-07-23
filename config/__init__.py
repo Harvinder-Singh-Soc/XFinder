@@ -1,1 +1,0 @@
-"""XFinder configuration package."""
